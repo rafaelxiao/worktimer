@@ -32781,7 +32781,7 @@ p.toString
 q=q.e
 q.toString
 p=B.h.c9(A.c3(0,Date.now()-p.a).a,1000)
-s[r].c=q-p/1000
+s[r].c=Math.max(q-p/1000,0)
 this.sml(0,s)}},
 a4p(a){var s,r=A.ae(this.f,!0,t.CK),q=B.c.rp(r,new A.a0H(a)),p=r[q]
 if(p.d!=null)p.e=p.d=null
